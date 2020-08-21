@@ -1,0 +1,689 @@
+html{
+   background-color: whitesmoke;
+   background-repeat: no-repeat
+}
+  
+
+
+body{
+   width: 100%;    
+   
+ 
+    }
+    h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif;
+    color: blue;
+}
+
+h1{
+    font-style: italic;
+  }
+ 
+
+  .paragrafo{
+    color:black;
+    text-align: center;
+  }
+  .paragrafo2{
+    color: #0018ff;
+  }
+
+.header { 
+     padding: 12%;
+     height: 40%;
+     color: white;
+     
+     text-align:  center;
+     text-shadow: 0.1em 0.2em 0.1em black;
+     
+}
+
+.header h5{
+
+    width: 40px;
+
+}
+
+
+
+footer  h5{
+    width: 100vw;
+    padding: 3.2rem 0;
+    background-color: #105564;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: -30px;
+
+}
+
+
+
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  
+ 
+  
+  
+
+  .column {
+    float: left;
+    width: 10%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  .content{
+
+    border-radius: 5px;
+
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+
+
+
+  /* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+    padding-right: -30px;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+
+  /* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 30%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deepskyblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 1%;
+    position: fixed;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 6%;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(116, 40, 146);
+    text-align:  center;
+     text-shadow: 0.1em 0.2em 0.1em black;
+     
+     
+     
+  }
+  
+  .active {
+    background-color: blanchedalmond;
+  }
+
+  .h1{ 
+     color: white;
+     background-color: transparent;
+     text-align: center;
+     padding: 40px;
+     text-shadow: 0.1em 0.1em 0.1em black;
+
+  }
+  
+* {
+  box-sizing: border-box;
+}
+
+.openBtn {
+  background: #f1f1f1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background: #bbb;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 0.1em solid grey;
+  float: left;
+  width: 40%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 0.1em;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+.circle-button{
+    font-family: 'Roboto', sans-serif;
+      color: #ccc;
+      display: inline-block;
+    font-size: 1rem;
+    border-radius: 50%;
+      transition: all 0.2s ease;
+  }
+  
+  .circle-button:hover{
+      animation: circle-anim 0.3s ease forwards;
+      transition: all 0.4s ease;
+  }
+  
+  .grow-container{
+    display: inline-block;
+    margin: 1em;
+  }
+  
+  .to-red:hover{
+    background: #E5393F;
+  }
+  
+  .to-twitter:hover{
+    background: #1DA1F3;
+  }
+  
+  .to-facebook:hover{
+    background: #3B5998;
+  }
+  
+  .to-linkedin:hover{
+    background: #0077B5;
+  }
+  
+  .to-reddit:hover{
+    background: #FF4500;
+  }
+  
+  @keyframes circle-anim{
+      0% {
+          
+      }
+      
+      90%{
+          padding: 0.35em;
+          margin: -0.35em; 
+      }
+      
+      100%{
+          padding: 0.25em;
+          margin: -0.25em; 
+      }
+  }
+
+
+  .btn--promo {
+    color: #dff9fb;
+    background-color: #130f40;
+    border-radius: 40px;
+    
+  }
+  
+  .btn--promo:after {
+    content: '40% OFF';
+    display: inline-block;
+    font-size: 1rem;
+    color: #130f40;
+    background-color: #f0932b;
+    border-radius: 25px;
+    padding: 5px;
+    position: absolute;
+    margin-top: -140px; 
+    margin-left: 140px; 
+  }
+  
+  .btn--action{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: #f6e58d;
+    color: #000;
+    transition: all .5s ease 0s; 
+    box-shadow: 0 10px #f9ca24;
+  }
+  
+  
+  
+.bg {
+     background-color: whitesmoke;
+}
+
+
+
+
+
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+  
+  
+  .formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.w3-xlarge:hover{
+
+     width: 100%;
+
+
+}
+
+
+.p{
+
+
+  text-align: right;
+
+}
+
+
+.texto p{
+  position: absolute;
+  font-size: 32px;
+  right: 5%;
+  top: 100px;
+  text-align: center;
+  color: goldenrod;
+  transition: 1s;
+  transition-duration: 1s ;
+}
+
+
+.texto p:hover{
+  position: absolute;
+  font-size: 34px;
+  right: 5%;
+  top: 100px;
+  text-align: center;
+  
+  color: lightblue;
+}
